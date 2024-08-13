@@ -1,0 +1,303 @@
+body {
+    font-family: "Oswald", sans-serif;
+    display: grid; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+} 
+
+header {
+    background-color: #fff; /* Solid white background */
+    position: fixed; /* Makes the header fixed at the top */
+    width: 100%; /* Ensures the header spans the full width of the viewport */
+    z-index: 1000; /* Ensures the header is above other content */
+}
+
+.header .searchbox {
+    text-align: right;
+    position: relative; 
+    border: none;
+    outline: none;
+    padding: 0.625em 0.625em;
+}
+
+.header .searchbox input[type="search"] {
+    color: white;
+    background-color: transparent;
+    width: 25%;
+    padding: 0.5em 2.5em 0.5em 0.625em; 
+    margin-left: auto;
+    border: none;
+    outline: none;
+    border-bottom: 0.125em solid white; 
+    transition: width 0.5s ease-in-out;
+}
+
+.header .searchbox input[type="search"]:focus {
+    width: 50%;
+}
+
+.header .searchbox .search-icon {
+    position: absolute;
+    right: 1.875em; 
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 1em;
+    height: 1em;
+    background: url('icons/search-64.png') no-repeat center center; 
+    background-size: contain;
+}
+
+.header button {
+    text-align: center;
+    padding: 0.625em 0.625em;
+    margin: 0.625em 0.625em 0.625em auto;
+}
+
+.content > p {
+    background-color: bisque; 
+    border-radius: 0.625em; 
+    font-size: 3.125em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 		
+}
+
+
+.content .double > p {
+    background-color: bisque; 
+    border-radius: 0.625em; 
+    font-size: 3.125em;
+    color: black;
+    display: flex;
+}
+
+.footer-medium p {
+    color: black;
+    padding: 0.1em;
+    margin: 0.1em;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.products2 .button {
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+}
+
+.content {
+    background-color: transparent;
+    display: grid;
+    color: black;
+}
+
+body {
+    grid-template-columns: 12.5em auto;
+    grid-template-rows: 5em auto 3em;
+}
+
+.searchResultsContainer {
+    margin-top: 5em;
+    display: grid;
+}
+
+#resultsContainer {
+    display: grid;
+    margin: 2em;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#searchProgress {
+    display: grid;
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#resultsContainer .button {
+    background-color: grey;
+    color: black;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.products2 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background-color: darkgray;
+    padding: 0.625em 1.25em;
+}
+
+#buttonContainer {
+    display: flex; 
+    flex-direction: column;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+#buttonContainer .button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 0.625em 1.25em;
+    border-radius: 0.25em;
+    margin-bottom: 0.625em;
+    outline: none;
+}
+
+#buttonContainer .button:disabled {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: not-allowed; 
+}
+
+#imageContainer {
+    display: grid;
+    justify-content: center;
+    grid-gap: 1em;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+mark {
+    background-color: transparent; 
+    color: black;
+    font-weight: bold;
+}
+
+.products2 #productList2  {
+    background-color: grey;
+    color: white;
+    padding: 0.625em 1.25em;
+    border-radius: 0.25em;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 0.625em;
+}
+
+.products2 .button {
+    padding: 1.25em 0.625em;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.header h1 {
+    display: none;
+}
+
+.header .searchbox {
+    background-color: black;
+    display: flex;
+}
+
+.header .searchbox p {
+    color: white;
+    font-size: xx-large;
+    background-color: black;
+    margin: 0;
+    padding: 0.625em 1.25em;
+    text-align: left;
+}
+
+.header .searchbox .search-icon {
+    filter: invert(100%);
+}
+
+.content {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 0.625em;
+    margin-top: 0;
+}
+
+.content > p {
+    height: 1.25em;
+    padding: 0.5em 1em;
+}
+
+.content .double {
+    display: flex;
+    justify-content: left;
+    gap: 0.625em;
+    padding: 0;
+    margin: 0;
+}
+
+.content .double > p {
+    height: 1.25em;
+    width: 50%;
+    padding: 0.5em 1em;
+}
+
+.footer-medium {
+    background-color: darkgray;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto ;
+    grid-column: span 2;
+}
+
+.footer-medium a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-medium a:focus,
+.footer-medium a:active {
+    outline: none;
+}
+
+.footer-medium .button {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.icon-contact { background-image: url('./icons/contact.png'); }
+.icon-question { background-image: url('./icons/question.png'); }
+.icon-email { background-image: url('./icons/email-64.png'); }
+.icon-idea { background-image: url('./icons/idea-64.png'); }
+.load-gif { 
+    background-image: url('./icons/loader.gif'); 
+    align-self: center;
+    justify-self: center;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    background-size: cover;
+}

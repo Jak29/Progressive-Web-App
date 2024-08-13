@@ -1,0 +1,104 @@
+{
+    "name": "Assignment 3",
+    "short_name": "Assignment3",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "Assignment 3 from Jak Cullinane",
+    "scope": "/",
+    "theme_color": "#FFFFFF",
+    "icons": [
+        {
+            "src": "icons/carl.png",
+            "type": "image/png",
+            "sizes": "240x240",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/contact.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/email-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/error.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/idea-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/if_search_298865.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/loader.gif",
+            "type": "image/gif",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/message.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/polaroid-48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "icons/polaroid-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/polaroid-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "icons/polaroid-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "icons/polaroid-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "icons/polaroid-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "icons/question.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/red-balloon.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/search-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "icons/white.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        }
+  ]
+}
+
